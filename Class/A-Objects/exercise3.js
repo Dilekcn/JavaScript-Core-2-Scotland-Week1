@@ -8,7 +8,8 @@ let food1 = {
 
 // Change the value of the Object's colour to Yellow
 
-
+food1.colour = "yellow"
+console.log(food1.colour)
 
 // Log the value of the Object's colour
 
