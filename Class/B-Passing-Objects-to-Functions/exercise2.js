@@ -30,3 +30,15 @@ let student3 = {
 // Call the function for each student and console.log the results
 
 
+function studentObj(student){
+if(student.attendance >= 90 && student.examScore >60){
+    student.hasPassed = true;
+    return "Student " + student.name + " has passed"
+}else{
+    return "Student " + student.name + " has failed";
+}
+}
+
+console.log(studentObj(student1));
+console.log(studentObj(student2));
+console.log(studentObj(student3));
